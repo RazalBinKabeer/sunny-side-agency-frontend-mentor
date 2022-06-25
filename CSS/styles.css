@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+    width: 100vw;
+}
+
+#section-1 {
+    background: url("../images/desktop/image-header.jpg") no-repeat center
+        center fixed;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: Barlow, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    width: 100vw;
+    padding: 30px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img {
+    object-fit: contain;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin: 0 20px;
+    padding: 20px 30px;
+}
+
+header ul li:last-of-type {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    margin-right: 30px;
+}
+
+header ul li:last-of-type a {
+    font-family: "Fraunces", serif;
+    color: hsl(212, 27%, 19%);
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.header-content h1 {
+    font-size: 52px;
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.header-content img {
+    height: 100px;
+    width: 40px;
+    margin-top: 80px;
+}
+
+#section-2 {
+    height: 50vh;
+}
+
+#section-3 {
+    height: 50vh;
+}
+
+#section-4 {
+    height: 50vh;
+}
+
+#section-5 {
+    height: 100vh;
+}
+
+#section-6 {
+    height: 50vh;
+}
+
+#section-6 img {
+    height: 100%;
+    width: 379.5px;
+    margin: 0;
+}
+
+#section-7 {
+    height: 50vh;
+}
